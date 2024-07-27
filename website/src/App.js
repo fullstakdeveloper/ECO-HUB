@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; // Import useState and useEffect hooks
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -39,6 +39,8 @@ function App() {
   const handleDownload = () => 
   {
     const blob = new Blob([submittedValues.join('\n')], { type: 'text/plain' }); // Create a Blob from the list of submitted values
+    // The \n is for making the items in the array as a vertical list
+
     const url = URL.createObjectURL(blob); // Create a URL for the Blob
     const a = document.createElement('a'); // Create a temporary <a> element
     a.href = url;
@@ -60,7 +62,7 @@ function App() {
         {submittedValues.map((value, index) => (
           <li key={index}>
             {value}
-            <button onClick={() => handleDelete(index)}>Delete</button> {/* Add a delete button */}
+            <button onClick={() => handleDelete(index)}>Delete</button> {/* Add a delete button at the end of each item */}
           </li>
         ))}
       </ul>
