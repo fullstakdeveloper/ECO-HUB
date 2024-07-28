@@ -1,15 +1,21 @@
 // image.js
 import './image.css';
 import React from 'react';
+import { motion } from "framer-motion"
 
 function Image(props) {
   return (
-    <div className="state">
-      <h1>{props.event}</h1>
+    <motion.div className="state"
+    whileHover={{
+      scale: 1.05,
+      transition: { duration: 0.5 }
+    }}
+    >
+      <p>{props.event}</p>
       <img src={props.m} alt="Event" />
       <div id="prog"></div>
       <input type = "file"/>
-    </div>
+    </motion.div>
   );
 }
 

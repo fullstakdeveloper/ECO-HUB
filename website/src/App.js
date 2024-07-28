@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <div className = 'nested'>
         <div className = "acts">
-          <Image m={REACT_LOGO} event = "Jashan" />
+          <Image m={REACT_LOGO} event = "Waste less Challenge" />
           <Image m={REACT_LOGO} event = "Ricky"/>
           <Image m={REACT_LOGO} event = "Jason"/>
           <Image m={REACT_LOGO} event = "Vadant"/>
