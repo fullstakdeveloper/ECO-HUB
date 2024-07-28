@@ -7,9 +7,9 @@ function Navbar({ setActiveComponent }) {
   return (
     <div className="navbar">
       <img src={LOGO} alt="Logo" />
-      <div onClick={() => setActiveComponent('home')}>Home</div>
-      <div onClick={() => setActiveComponent('shop')}>Shop</div>
-      <button onClick={() => setActiveComponent('about')}>About</button>
+      <div>Home</div>
+      <div>Shop</div>
+      <div>About</div>
     </div>
   );
 }
