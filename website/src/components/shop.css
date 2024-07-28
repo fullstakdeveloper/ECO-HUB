@@ -15,6 +15,7 @@ html, body {
   background-color: #b0c4de; /* Adjust background color to match your design */
   min-height: 100vh; /* Ensure it covers the full height */
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .shop-content {
