@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      
+
       <div className = "acts">
         <Image m={REACT_LOGO} event = "Jashan" />
         <Image m={BOTTLE} event = "Ricky"/>
