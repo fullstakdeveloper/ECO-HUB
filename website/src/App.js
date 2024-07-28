@@ -12,7 +12,7 @@ function App() {
 
     <div className="App">
       <Navbar/>
-      <div>
+      <div className = 'nested'>
         <div className = "acts">
           <Image m={REACT_LOGO} event = "Jashan" />
           <Image m={REACT_LOGO} event = "Ricky"/>
@@ -22,6 +22,9 @@ function App() {
           <Image m={REACT_LOGO} event = "Lol"/>
           <Image m={REACT_LOGO} event = "Lol"/>
           <Image m={REACT_LOGO} event = "Lol"/>
+        </div>
+
+        <div className = "scoreboard">
         </div>
       </div>
       </div>
