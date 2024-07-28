@@ -1,49 +1,57 @@
 .buy-component {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #ddd;
+    background-color: #fff;
+    border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
-    background-color: #fff;
-    position: relative;
-    width: 200px; /* Adjust width as needed */
-    margin: 20px; /* Add margin for spacing between items */
+    margin: 20px;
+    width: 300px; /* Adjust the width to make the image fit */
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .buy-component img {
-    width: 100px; /* Adjust size as needed */
-    height: 100px;
-  }
-  
-  .buy-component p {
-    margin: 10px 0;
-    font-size: 18px;
+    width: 230px; /* Adjust the size of the image */
+    height: 230px; /* Adjust the height of the image */
+    object-fit: cover;
+    margin-bottom: 10px;
   }
   
   .price {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 50px; /* Ensure the width and height are the same */
-    height: 50px;
-    border-radius: 50%; /* This makes it a circle */
-    background-color: #4caf50; /* Default background color, overridden by props */
-    color: white;
-    font-weight: bold;
+    top: -15px; /* Adjust this value as needed */
+    right: -15px; /* Adjust this value as needed */
+    width: 90px; /* Adjust the size */
+    height: 90px; /* Adjust the size */
+    background-color: var(--price-color);
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translate(50%, -50%); /* Center at the top right corner */
+    font-size: 14px;
+    font-weight: bold;
+    color: black; /* Set the font color to black */
+  }
+  
+  .price .trophy-icon {
+    width: 18px; /* Adjust the size of the trophy icon */
+    height: 18px; /* Adjust the size of the trophy icon */
+    margin-left: 5px; /* Add some space between the price and the trophy icon */
+    align-self: center; /* Adjust the position of the trophy icon */
+    margin-top: 10px;
   }
   
   .buy-button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #007bff;
     color: white;
+    padding: 10px 20px;
     border-radius: 5px;
+    text-align: center;
     cursor: pointer;
-    user-select: none;
+    margin-top: auto;
+    width: 40%; /* Increase the width of the buy button */
   }
   

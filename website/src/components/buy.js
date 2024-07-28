@@ -1,6 +1,7 @@
 import './buy.css';
 import React from 'react';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import trophy_new from '../Assets/trophy_new.png';
 
 function Buy(props) {
   return (
@@ -11,9 +12,10 @@ function Buy(props) {
       }}
     >
       <p>{props.commodity}</p>
-      <img src={props.m} alt="Item" />
+      <img src={props.m} alt="Item" className="item-image" />
       <div className="price" style={{ backgroundColor: props.color }}>
         {props.price}
+        <img src={trophy_new} alt="Trophy Icon" className="trophy-icon" />
       </div>
       <div className="buy-button">Buy</div>
     </motion.div>
