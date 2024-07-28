@@ -4,7 +4,7 @@ import About from './about.js';
 import Shop from './shop.js';
 import REACT_LOGO from './Assets/logo.svg';
 import Image from "./components/image.js";
-import './home.css;
+import './home.css';
 
 function Home() {
   return (
@@ -32,4 +32,4 @@ function Home() {
   );
 }
 
-export default ;
+export default Home;
