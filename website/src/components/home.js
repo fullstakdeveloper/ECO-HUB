@@ -4,6 +4,7 @@ import About from '../components/about';
 import Shop from '../components/shop';
 import REACT_LOGO from '../Assets/logo.svg';
 import Image from "../components/image.js";
+import Banner from "./banner.js";
 import './home.css'
 
 function Home() {
@@ -27,6 +28,7 @@ function Home() {
         <div className = "scoreboard">
         </div>
       </div>
+      <Banner/>
       </div>
       </>
   );
