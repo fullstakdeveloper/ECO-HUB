@@ -2,13 +2,11 @@
     display: flex;
     flex-direction: row;
     width: cover;
-    height: 100vh;
     align-items: center;
-    border: solid 10px red;
 }
 
 .About #jashan {
-    width: 700px;
+    width: 900px;
     margin-right: 40px;
 
 }
@@ -22,6 +20,10 @@
 }
 
 #broke {
-    width: 500px;
+    width: 600px;
     font-size: 20px;
 }
+ h2 {
+    color: black;
+    font-size: 60px;
+ }
