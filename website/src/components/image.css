@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(167, 219, 167);
+    /* background-color: rgb(167, 219, 167); */
     height: fit-content;
     /* border: 5px solid black; */
-    margin: 10px;
+    margin: 20px;
 }
 
 img {
     width: 200px;
-    height: 200px;
+    height: 200px;  
 }
 
 #prog {
@@ -18,4 +18,6 @@ img {
     height: 20px;
     background-color: rgb(245, 86, 86);
     margin-top: 20px;
+    border-radius: 20px;
 }
+
