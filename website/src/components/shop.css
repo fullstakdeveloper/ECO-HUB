@@ -5,7 +5,7 @@
   text-align: center;
   background-color: #b0c4de; /* Adjust background color to match your design */
   height: 100vh;
-  padding-top: 60px; /* Adjust padding to ensure it doesn't overlap with the navbar */
+  /* padding-top: 60px; Adjust padding to ensure it doesn't overlap with the navbar */
 }
 
 .shop-content {
