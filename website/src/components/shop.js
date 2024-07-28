@@ -15,7 +15,7 @@ function Shop() {
   const colors = ['#18dd9d', '#fef72f', '#de982e', '#ca2fff', '#ff1e9a', '#ff1b12'];
   const names = ['T-Shirt', 'Wallet', 'Perfume', 'Shoes', 'Watch', 'iPad'];
   const images = [tshirt, wallet, purfume, shoes, watch, ipad];
-  const prices = ['1~20', '21~50', '50~71', '71~81', '81~91', '91+'];
+  const prices = ['13', '29', '56', '77', '85', '152'];
 
   return (
     <div className="shop">
