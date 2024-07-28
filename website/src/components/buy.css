@@ -1,44 +1,49 @@
-.state {
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 20px;
+.buy-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
-    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    width: 200px; /* Adjust width as needed */
+    margin: 20px; /* Add margin for spacing between items */
   }
   
-  .state img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
+  .buy-component img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
   }
   
-  .state p {
-    font-size: 18px;
+  .buy-component p {
     margin: 10px 0;
+    font-size: 18px;
   }
   
   .price {
-    font-size: 16px;
-    color: #555;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px; /* Ensure the width and height are the same */
+    height: 50px;
+    border-radius: 50%; /* This makes it a circle */
+    background-color: #4caf50; /* Default background color, overridden by props */
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(50%, -50%); /* Center at the top right corner */
   }
   
   .buy-button {
-    display: inline-block;
-    padding: 10px 20px;
     margin-top: 10px;
-    background-color: #007bff;
+    padding: 10px 20px;
+    background-color: #007BFF;
     color: white;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s;
-  }
-  
-  .buy-button:hover {
-    background-color: #0056b3;
+    user-select: none;
   }
   

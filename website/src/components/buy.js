@@ -1,19 +1,20 @@
 import './buy.css';
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion"
 
 function Buy(props) {
   return (
-    <motion.div
-      className="state"
+    <motion.div className="buy-component"
       whileHover={{
         scale: 1.05,
-        transition: { duration: 0.5 },
+        transition: { duration: 0.5 }
       }}
     >
-      <p>{props.name}</p>
+      <p>{props.commodity}</p>
       <img src={props.m} alt="Item" />
-      <p className="price">{props.price}</p>
+      <div className="price" style={{ backgroundColor: props.color }}>
+        {props.price}
+      </div>
       <div className="buy-button">Buy</div>
     </motion.div>
   );
