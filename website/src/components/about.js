@@ -1,11 +1,13 @@
 import React from 'react';
 import './about.css';
 import LOGO from '../Assets/ecohub_logo.png';
+import Navbar from './navbar';
 
 
 function About() {
   return (
     <div className="About">
+      <Navbar/>
       <img src={LOGO} alt="EcoHub Logo" className="logo" />
       <div className="login-container">
         <p>If you have an account with us please log in:</p>
