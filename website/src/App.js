@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Image from './components/image';
+import Navbar from "./components/navbar";
 import './App.css';
 import REACT_LOGO from './Assets/logo.svg';
 import BOTTLE from './Assets/bottle.jpeg';
@@ -10,13 +11,12 @@ import SQUARES from './Assets/8_squares.jpg';
 import GREENLIGHT from './Assets/green_light.jpg';
 import MICROSOFT from './Assets/microsoft.jpg';
 import LOGO from './Assets/ecohub_logo.png';
-// my name is jashan
 
 function App() {
   return (
     <div className="App">
-
-      <img src = {LOGO}></img>
+      <Navbar/>
+      
       <div className = "acts">
         <Image m={REACT_LOGO} event = "Jashan" />
         <Image m={BOTTLE} event = "Ricky"/>
