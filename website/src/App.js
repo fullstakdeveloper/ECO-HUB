@@ -18,7 +18,6 @@ function App() {
       <Navbar/>
       <Login/>
 
-      <div className = "parent">
         <div className = "acts">
           <Image m={REACT_LOGO} event = "Jashan" />
           <Image m={BOTTLE} event = "Ricky"/>
@@ -30,12 +29,6 @@ function App() {
           <Image m={MICROSOFT} event = "Lol"/>
           <Image m={MICROSOFT} event = "Lol"/>
         </div>
-        
-        <div className = "recent">
-          <Image m={REACT_LOGO} event = "Jashan" />
-          <Image m={BOTTLE} event = "Ricky"/>
-        </div>
-      </div>
 
     </div>
   );

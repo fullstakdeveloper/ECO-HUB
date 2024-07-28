@@ -7,20 +7,9 @@
     justify-content: center; /* Center the items horizontally */
 }
 
-.parent {
-    display: flex;
-    flex-direction: row;
-}
-
 .App {
     display: flex;
     justify-content: left;
     flex-direction: column;
     overflow-x: hidden;
-}
-
-.recent {
-    position: fixed;
-    margin-left: 900px;
-    
 }
