@@ -8,8 +8,8 @@ function Navbar() {
         <div className="navbar">
             <img src={LOGO} alt="Logo" />
             <div><a href = "../App.js">Home</a></div>
-            <div><a>About</a></div>
-            <div><a>Shop</a></div>
+            <div><a href = "../about.js">About</a></div>
+            <div><a href = "../shop.js">Shop</a></div>
         </div>
     );
 }
