@@ -7,8 +7,18 @@
     justify-content: center; /* Center the items horizontally */
 }
 
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
 .App {
     display: flex;
     justify-content: left;
     flex-direction: column;
+}
+
+.recent {
+    position: absolute;
+    margin-left: 900px;
 }

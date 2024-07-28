@@ -16,17 +16,22 @@ function App() {
     <div className="App">
       <Navbar/>
 
-      <div className = "acts">
-        <Image m={REACT_LOGO} event = "Jashan" />
-        <Image m={BOTTLE} event = "Ricky"/>
-        <Image m={BRICKS} event = "Jason"/>
-
-        <br></br>
-
-        <Image m={SQUARES} event = "Vadant"/>
-        <Image m={GREENLIGHT} event = "Enkai"/>
-        <Image m={MICROSOFT} event = "Lol"/>
+      <div className = "parent">
+        <div className = "acts">
+          <Image m={REACT_LOGO} event = "Jashan" />
+          <Image m={BOTTLE} event = "Ricky"/>
+          <Image m={BRICKS} event = "Jason"/>
+          <Image m={SQUARES} event = "Vadant"/>
+          <Image m={GREENLIGHT} event = "Enkai"/>
+          <Image m={MICROSOFT} event = "Lol"/>
+        </div>
+        
+        <div className = "recent">
+          <Image m={REACT_LOGO} event = "Jashan" />
+          <Image m={BOTTLE} event = "Ricky"/>
+        </div>
       </div>
+
     </div>
   );
 }
