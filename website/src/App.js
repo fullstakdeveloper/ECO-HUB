@@ -10,7 +10,6 @@ import BRICKS from './Assets/bricks.jpg';
 import SQUARES from './Assets/8_squares.jpg';
 import GREENLIGHT from './Assets/green_light.jpg';
 import MICROSOFT from './Assets/microsoft.jpg';
-import LOGO from './Assets/ecohub_logo.png';
 
 function App() {
   return (
