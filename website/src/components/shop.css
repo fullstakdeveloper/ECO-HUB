@@ -1,6 +1,101 @@
-/* shop.css */
 .shop {
-    text-align: center;
-    padding: 20px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #b0c4de; /* Adjust background color to match your design */
+  height: 100vh;
+  padding-top: 60px; /* Adjust padding to ensure it doesn't overlap with the navbar */
+}
+
+.shop-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.shop-content h1 {
+  font-size: 50px;
+  margin-top: 100px; /* Adjust this value to add more space as needed */
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  height: 90px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar div {
+  display: flex;
+  margin: auto;
+  font-weight: 800;
+  color: black;
+  width: 200px;
+  border-radius: 20px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar div:hover {
+  background-color: rgb(46, 181, 82);
+}
+
+.navbar img {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar div a {
+  text-decoration: none;
+  color: black;
+}
+
+.score-container {
+  display: flex;
+  justify-content: flex-end; /* This aligns the score to the right */
+  width: 100%;
+  padding: 20px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  right: 20px; /* Adjust the right position as needed */
+}
+
+.score-shape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd700; /* Adjust color to match the trophy background */
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.trophy-icon {
+  width: 30px; /* Adjust the size of the trophy icon */
+  height: 30px;
+}
+
+.score span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px; /* Add some space between the icon and the score number */
+}
