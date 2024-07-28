@@ -8,6 +8,7 @@ function Image(props) {
       <h1>{props.event}</h1>
       <img src={props.m} alt="Event" />
       <div id="prog"></div>
+      <input type = "file"/>
     </div>
   );
 }

@@ -1,24 +1,16 @@
 .acts {
     display: flex;
     flex-wrap: wrap;
-    width: 850px;
+    width: 1200px;
     height: fit-content;
     border: 1px solid red;
     justify-content: center; /* Center the items horizontally */
-}
-
-.parent {
-    display: flex;
-    flex-direction: row;
 }
 
 .App {
     display: flex;
     justify-content: left;
     flex-direction: column;
-}
-
-.recent {
-    position: absolute;
-    margin-left: 900px;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
 }
