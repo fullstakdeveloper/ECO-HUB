@@ -1,0 +1,14 @@
+.acts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: fit-content;
+    border: 1px solid red;
+    justify-content: center; /* Center the items horizontally */
+}
+
+.App {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
