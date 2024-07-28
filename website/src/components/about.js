@@ -7,7 +7,7 @@ import Navbar from './navbar';
 function About() {
   return (
     <div className="About">
-      <Navbar/>
+      {/* <Navbar/> */}
       <img src={LOGO} alt="EcoHub Logo" className="logo" />
       <div className="login-container">
         <p>If you have an account with us please log in:</p>

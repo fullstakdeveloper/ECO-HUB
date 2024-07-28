@@ -11,11 +11,17 @@ import Home from "./components/home.js"
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='/about' element={<About/>}></Route>
-      <Route path='/shop' element={<Shop/>}></Route>
-    </Routes>
+
+    <div>
+
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/shop' element={<Shop/>}></Route>
+      </Routes>
+
+    </div>
 
   );
 }
