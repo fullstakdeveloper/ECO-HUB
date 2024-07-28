@@ -8,11 +8,6 @@ function About() {
   return (
     <div className="About">
       <Navbar/>
-      <img src={LOGO} alt="EcoHub Logo" className="logo" />
-      <div className="login-container">
-        <p>If you have an account with us please log in:</p>
-        <button className="login-button">Log In</button>
-      </div>
       <div className="content">
         <h2>What is EcoHub</h2>
         <p>
@@ -23,7 +18,6 @@ function About() {
           and the world to enjoy.
         </p>
       </div>
-      <button className="signup-button">Sign Up</button>
     </div>
   );
 }

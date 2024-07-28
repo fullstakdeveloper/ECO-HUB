@@ -1,27 +1,21 @@
 /* about.css */
 .About {
   text-align: center;
+
 }
 
 .logo {
-  width: 100px;
+  width: 200px;
 }
 
 .login-container {
   margin: 20px 0;
 }
 
-.login-button {
-  padding: 10px 20px;
-  font-size: 16px;
-}
-
 .content {
   margin: 20px 0;
 }
 
-.signup-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin-top: 20px;
+p {
+  width: 300px;
 }
