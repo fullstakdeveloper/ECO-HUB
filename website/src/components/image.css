@@ -6,10 +6,10 @@
     margin: 20px;
     padding-top: 20 px;
     padding-bottom: 20px;
-
+    background-color: white;
     color: black;
-    border: solid 1px red;
     border-radius: 20px;
+    border: 1px black solid;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
 #prog {
     width: 230px;
     height: 20px;
-    background-color: rgb(245, 86, 86);
+    background-color: rgb(150, 150, 150);
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;

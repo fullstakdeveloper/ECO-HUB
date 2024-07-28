@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     width: 1200px;
     height: fit-content;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center;
 }
 
 .App {

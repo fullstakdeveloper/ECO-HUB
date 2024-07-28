@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from './components/navbar';
 import About from './components/about';
-import Home from './components/home';
 import Shop from './components/shop';
 import REACT_LOGO from './Assets/logo.svg';
 import Image from "./components/image.js";
+import './App.css'
 
 function App() {
   return (
