@@ -24,6 +24,9 @@ function App() {
           <Image m={SQUARES} event = "Vadant"/>
           <Image m={GREENLIGHT} event = "Enkai"/>
           <Image m={MICROSOFT} event = "Lol"/>
+          <Image m={MICROSOFT} event = "Lol"/>
+          <Image m={MICROSOFT} event = "Lol"/>
+          <Image m={MICROSOFT} event = "Lol"/>
         </div>
         
         <div className = "recent">

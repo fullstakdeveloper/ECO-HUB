@@ -16,9 +16,11 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .recent {
-    position: absolute;
+    position: fixed;
     margin-left: 900px;
+    
 }
