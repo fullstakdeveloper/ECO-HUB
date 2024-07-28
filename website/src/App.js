@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Image from './components/image';
 import Navbar from "./components/navbar";
+import Login from "./components/login";
 import './App.css';
 import REACT_LOGO from './Assets/logo.svg';
 import BOTTLE from './Assets/bottle.jpeg';
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Login/>
 
       <div className = "parent">
         <div className = "acts">
