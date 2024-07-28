@@ -11,7 +11,7 @@ function Home() {
     <>
 
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className = 'nested'>
         <div className = "acts">
           <Image m={REACT_LOGO} event = "Waste less Challenge" />
