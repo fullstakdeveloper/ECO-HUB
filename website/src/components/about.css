@@ -1,29 +1,83 @@
-.content {
-    display: flex;
-    flex-direction: row;
-    width: cover;
-    align-items: center;
-}
-
-.About #jashan {
-    width: 900px;
-    margin-right: 40px;
-
-}
-
 .About {
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
     overflow-x: hidden;
-    
-}
-
-#broke {
-    width: 600px;
-    font-size: 20px;
-}
- h2 {
-    color: black;
-    font-size: 60px;
- }
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  #background-image {
+    width: 70%;
+    height: auto;
+  }
+  
+  #text-container {
+    position: absolute;
+    right: 5%;
+    text-align: right;
+    color: white;
+  }
+  
+  #title {
+    font-family: 'Inter Extra Bold';
+    font-size: 300px;
+    font-weight: 800;
+    color: #003366; /* Dark blue color */
+    -webkit-text-stroke: 10px white; /* White stroke */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+  
+  #intro {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #003366; /* Dark blue color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  #signup {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #003366; /* Dark blue color */
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .bottom-content {
+    max-width: 50%;
+  }
+  
+  .bottom-content h2 {
+    font-size: 32px;
+    color: #003366;
+  }
+  
+  .bottom-content p {
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  #people-image {
+    width: 45%;
+    height: auto;
+  }
+  
