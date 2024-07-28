@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import LOGO from '../Assets/ecohub_logo.png';
 
+
 function About() {
     return (
       <div className="About">
@@ -20,8 +21,10 @@ function About() {
             and the world to enjoy.
           </p>
         </div>
-        <img src={ACTIVITY_IMG} alt="Activities" className="activities-image" />
+       
         <button className="signup-button">Sign Up</button>
       </div>
     );
   }
+
+export default About;

@@ -2,10 +2,11 @@
     width: 100vw;
     display: flex;
     height: 90px;
-    background-color: rgb(255, 255, 255);
+    background-color: red;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    border: solid red 1px;
+
 }
 
 .navbar div {
@@ -27,3 +28,4 @@
     text-decoration: none;
     color: black;
 }
+

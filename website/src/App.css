@@ -3,13 +3,13 @@
     flex-wrap: wrap;
     width: 1200px;
     height: fit-content;
-    border: 1px solid red;
     justify-content: center; /* Center the items horizontally */
 }
 
 .App {
     display: flex;
     justify-content: left;
+    align-items: right;
     flex-direction: column;
     overflow-x: hidden;
     background-color: #f5f5f5;
