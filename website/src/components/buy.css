@@ -1,0 +1,57 @@
+.buy-component {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px; /* Adjust the width to make the image fit */
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buy-component img {
+    width: 230px; /* Adjust the size of the image */
+    height: 230px; /* Adjust the height of the image */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    position: absolute;
+    top: -15px; /* Adjust this value as needed */
+    right: -15px; /* Adjust this value as needed */
+    width: 90px; /* Adjust the size */
+    height: 90px; /* Adjust the size */
+    background-color: var(--price-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black; /* Set the font color to black */
+  }
+  
+  .price .trophy-icon {
+    width: 18px; /* Adjust the size of the trophy icon */
+    height: 18px; /* Adjust the size of the trophy icon */
+    margin-left: 5px; /* Add some space between the price and the trophy icon */
+    align-self: center; /* Adjust the position of the trophy icon */
+    margin-top: 10px;
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: auto;
+    width: 40%; /* Increase the width of the buy button */
+  }
+  
