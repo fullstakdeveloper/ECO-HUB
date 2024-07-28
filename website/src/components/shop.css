@@ -22,45 +22,6 @@
   margin-top: 100px; /* Adjust this value to add more space as needed */
 }
 
-.navbar {
-  width: 100vw;
-  display: flex;
-  height: 90px;
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-.navbar div {
-  display: flex;
-  margin: auto;
-  font-weight: 800;
-  color: black;
-  width: 200px;
-  border-radius: 20px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar div:hover {
-  background-color: rgb(46, 181, 82);
-}
-
-.navbar img {
-  width: 150px;
-  height: 150px;
-}
-
-.navbar div a {
-  text-decoration: none;
-  color: black;
-}
-
 .score-container {
   display: flex;
   justify-content: flex-end; /* This aligns the score to the right */
