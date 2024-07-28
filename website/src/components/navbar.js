@@ -1,9 +1,12 @@
 import React from 'react';
 import './navbar.css';
 import LOGO from '../Assets/ecohub_new.png';
+import App from "../App.js";
 
 
-function Navbar({ setActiveComponent }) {
+
+
+function Navbar() {
   return (
     <div className="navbar">
       <img src={LOGO} alt="Logo" />

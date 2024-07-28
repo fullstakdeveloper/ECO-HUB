@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from "framer-motion"
 
 function Image(props) {
+  
   return (
     <motion.div className="state"
     whileHover={{
