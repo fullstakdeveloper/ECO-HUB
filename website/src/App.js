@@ -1,40 +1,20 @@
-// app.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Image from './components/image';
-import Navbar from "./components/navbar";
-import Login from "./components/login";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/home'; // Assuming your main content is in Home.js
+import About from './components/about';
+import Navbar from './components/navbar';
 import './App.css';
-import REACT_LOGO from './Assets/logo.svg';
-import BOTTLE from './Assets/bottle.jpeg';
-import BRICKS from './Assets/bricks.jpg';
-import SQUARES from './Assets/8_squares.jpg';
-import GREENLIGHT from './Assets/green_light.jpg';
-import MICROSOFT from './Assets/microsoft.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Login/>
-
-      <div className = "parent">
-        <div className = "acts">
-          <Image m={REACT_LOGO} event = "Jashan" />
-          <Image m={BOTTLE} event = "Ricky"/>
-          <Image m={BRICKS} event = "Jason"/>
-          <Image m={SQUARES} event = "Vadant"/>
-          <Image m={GREENLIGHT} event = "Enkai"/>
-          <Image m={MICROSOFT} event = "Lol"/>
-        </div>
-        
-        <div className = "recent">
-          <Image m={REACT_LOGO} event = "Jashan" />
-          <Image m={BOTTLE} event = "Ricky"/>
-        </div>
-      </div>
-
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 
