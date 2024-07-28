@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.About #jashan {
+    width: 700px;
+    margin-right: 40px;
+
+}
+
+.About {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+#broke {
+    width: 300px;
+}
