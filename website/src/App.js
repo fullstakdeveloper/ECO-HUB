@@ -1,41 +1,31 @@
-// app.js
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Image from './components/image';
-import Navbar from "./components/navbar";
-import Login from "./components/login";
-import './App.css';
-import REACT_LOGO from './Assets/logo.svg';
-import BOTTLE from './Assets/bottle.jpeg';
-import BRICKS from './Assets/bricks.jpg';
-import SQUARES from './Assets/8_squares.jpg';
-import GREENLIGHT from './Assets/green_light.jpg';
-import MICROSOFT from './Assets/microsoft.jpg';
+import React, { useState } from 'react';
+import Navbar from './components/navbar';
+import About from './components/about';
+import Home from './components/home';
+import Shop from './components/shop';
 
 function App() {
+  const [activeComponent, setActiveComponent] = useState('home');
+
+  const renderComponent = () => {
+    switch (activeComponent) {
+      case 'about':
+        return <About />;
+      case 'home':
+        return <Home />;
+      case 'shop':
+        return <Shop />;
+      default:
+        return <Home />;
+    }
+  };
+
   return (
-    <div className="App">
-      <Navbar/>
-      <Login/>
-
-        <div className = "acts">
-          <Image m={REACT_LOGO} event = "Jashan" />
-          <Image m={BOTTLE} event = "Ricky"/>
-          <Image m={BRICKS} event = "Jason"/>
-          <Image m={SQUARES} event = "Vadant"/>
-          <Image m={GREENLIGHT} event = "Enkai"/>
-          <Image m={MICROSOFT} event = "Lol"/>
-          <Image m={MICROSOFT} event = "Lol"/>
-          <Image m={MICROSOFT} event = "Lol"/>
-          <Image m={MICROSOFT} event = "Lol"/>
-        </div>
-
+    <div>
+      <Navbar setActiveComponent={setActiveComponent} />
+      {renderComponent()}
     </div>
   );
 }
-
-const container = document.getElementById('root');
-const root = ReactDOM.createRoot(container);
-root.render(<App />);
 
 export default App;
